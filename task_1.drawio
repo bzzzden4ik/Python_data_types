@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BMlR4rs8mD5h78BTNQYO">
-    <mxGraphModel dx="811" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1200" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="7NWUaZapQF4LBE4ccm-e-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Начало" vertex="1">
           <mxGeometry height="70" width="210" x="320" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="7NWUaZapQF4LBE4ccm-e-7" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7NWUaZapQF4LBE4ccm-e-6" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-7" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-6" value="">
+          <mxGeometry relative="1" x="0.4" as="geometry" />
         </mxCell>
         <mxCell id="7NWUaZapQF4LBE4ccm-e-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" value="&lt;div align=&quot;left&quot;&gt;students = [&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]},&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]},&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]}&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;]&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="210" x="320" y="130" as="geometry" />
