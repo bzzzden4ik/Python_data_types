@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BMlR4rs8mD5h78BTNQYO">
-    <mxGraphModel dx="2200" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="811" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,10 +102,16 @@
           <mxGeometry height="30" width="60" x="260" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="7NWUaZapQF4LBE4ccm-e-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
-          <mxGeometry height="30" width="60" x="540" y="1230" as="geometry" />
+          <mxGeometry height="30" width="60" x="530" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-28" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7NWUaZapQF4LBE4ccm-e-25" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Вывод best_student" vertex="1">
           <mxGeometry height="140" width="210" x="320" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-27" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Конец" vertex="1">
+          <mxGeometry height="70" width="210" x="320" y="1780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
