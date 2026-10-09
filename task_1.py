@@ -12,6 +12,9 @@ average_grades = {
 best_student = ''
 best_value = 0
 
-best_student = max(average_grades, key=average_grades.get)
+for name, avg_grade in average_grades.items():
+    if avg_grade > best_value:
+        best_value = avg_grade
+        best_student = name
 
 print(best_student)
