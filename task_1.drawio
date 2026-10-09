@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="BMlR4rs8mD5h78BTNQYO">
+    <mxGraphModel dx="2200" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-3" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-2">
+          <mxGeometry relative="1" x="0.4" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Начало" vertex="1">
+          <mxGeometry height="70" width="210" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-7" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7NWUaZapQF4LBE4ccm-e-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" value="&lt;div align=&quot;left&quot;&gt;students = [&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]},&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]},&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;{&quot;name&quot;: &quot;Alice&quot;, &quot;grades&quot;: [5, 4, 5, 3]}&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-12" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-13" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-14">
+          <mxGeometry relative="1" x="0.4775" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="540" />
+              <mxPoint x="590" y="840" />
+              <mxPoint x="425" y="840" />
+            </Array>
+            <mxPoint x="425" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-4" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=2;labelPosition=center;align=center;" value="Для каждого student в students" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-8" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-4" value="">
+          <mxGeometry relative="1" x="0.4" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" value="&lt;div align=&quot;center&quot;&gt;average_grades = dict()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-11" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=classic;endFill=1;" target="7NWUaZapQF4LBE4ccm-e-4">
+          <mxGeometry relative="1" x="0.0022" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="810" />
+              <mxPoint x="290" y="810" />
+              <mxPoint x="290" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="average_grades[student[&#39;name&#39;]] = sum(student[&#39;grades&#39;]) / len(student[&#39;grades&#39;])" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-18" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;best_student = &#39;&#39;&lt;/div&gt;&lt;div&gt;best_value = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-17" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-16">
+          <mxGeometry relative="1" x="0.4" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-26" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-25">
+          <mxGeometry relative="1" x="-0.0528" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1110" />
+              <mxPoint x="800" y="1580" />
+              <mxPoint x="425" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-15" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=2;labelPosition=center;align=center;whiteSpace=wrap;" value="&lt;div align=&quot;center&quot;&gt;Для каждой пары (name, avg_grade) в average_grades.items()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-21" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="7NWUaZapQF4LBE4ccm-e-19">
+          <mxGeometry relative="1" x="0.0043" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-24" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="7NWUaZapQF4LBE4ccm-e-15">
+          <mxGeometry relative="1" x="0.2705" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1280" />
+              <mxPoint x="680" y="1550" />
+              <mxPoint x="50" y="1550" />
+              <mxPoint x="50" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="avg_grade &amp;gt; best_value" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-20" edge="1" parent="1" source="7NWUaZapQF4LBE4ccm-e-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="7NWUaZapQF4LBE4ccm-e-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1450" />
+              <mxPoint x="50" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;best_student = name&lt;/div&gt;&lt;div&gt;best_value = avg_grade&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="80" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="True" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="7NWUaZapQF4LBE4ccm-e-25" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Вывод best_student" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="1610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
