@@ -5,8 +5,7 @@ items = [
     ("tomato", "vegetable"),
     ("milk", "dairy")
 ]
-
-grouped_items = {}
+grouped_items = dict()
 
 for product, category in items:
     if category in grouped_items:
