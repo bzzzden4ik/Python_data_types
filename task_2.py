@@ -13,4 +13,4 @@ for word in words:
 sorted_words = sorted(words_counter.items(), key=lambda item: item[1], reverse=True)
 
 for word, count in sorted_words[:5]:
-    print(f"{word}: {count}")
+    print(word)
